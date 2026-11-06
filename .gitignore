@@ -1,0 +1,21 @@
+.env
+/node_modules
+/dist
+/build
+/.env
+node_modules
+settings.local.json 
+# Datenbank-Backups
+backups/
+
+# Persönliche Daten / lokale Datenbanken
+*.db
+*.sqlite
+*.csv
+*.ics
+uploads/
+.claude
+
+# Lokale Umgebung
+.envrc
+.DS_Store

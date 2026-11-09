@@ -77,7 +77,7 @@ pnpm install
 pnpm import-csv <your-email> [path/to/file.csv]
 ```
 
-Without a path, `src/data/contacts_min.csv` is used. The database credentials are read from the `.env` in the
+Without a path, `src/data/contacts_min.csv` is used (CSV files are git-ignored and not part of the repo). The database credentials are read from the `.env` in the
 project root; by default the script connects to `localhost:5433` (the Postgres port of the Docker setup).
 Override with `DATABASE_HOST` / `DATABASE_PORT` if your database runs elsewhere.
 
